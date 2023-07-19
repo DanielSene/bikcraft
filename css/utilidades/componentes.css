@@ -1,6 +1,6 @@
 .container {
-  min-width: 1200px;
-  block-size: border-box;
+  box-sizing: border-box;
+  max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
