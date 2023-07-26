@@ -159,7 +159,7 @@
       <div class="footer-contato">
         <h3 class="font-2-l-b cor-0">Contato</h3>
         <ul class="font-2-m cor-5">
-          <li><a href="tel:+552199999999">+55 38 99271-4283</a></li>
+          <li><a href="tel:+5538992714283">+55 38 99271-4283</a></li>
           <li><a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a></li>
           <li>Avenida Algum Lugar, 29 - Centro</li>
           <li>Brasília de Minas - MG</li>
@@ -189,6 +189,27 @@
       </div>
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
+    <script type="text/javascript">
+      (function () {
+        var options = {
+          whatsapp: "+5538992714283", // WhatsApp number (Substitua pleo seu WhatsApp - Composto Código País + DDD + Número do Telefone)
+          call_to_action: "Olá, como podemos ajudá-lo?", // Call to action
+          button_color: "#ffbb00", // Color of button
+          position: "right", // Position may be 'right' or 'left'
+          order: "whatsapp", // Order of buttons
+        };
+        var proto = 'https:', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () {
+          WhWidgetSendButton.init(host, proto, options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      })();
+    </script>
   </footer>
 </body>
 
