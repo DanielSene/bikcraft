@@ -170,6 +170,9 @@
     border-radius: 0 0 5px 5px;
     background: var(--cor-12);
   }
+  .orcamento-dados label {
+    color: var(--cor-0);
+  }
 }
 
 @media (max-width: 400px) {
