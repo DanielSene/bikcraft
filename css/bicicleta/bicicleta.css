@@ -34,7 +34,7 @@
   display: grid;
   grid-template-columns: max-content auto;
   align-items: center;
-  justify-content: start;
+  justify-items: start;
   gap: 8px 12px;
   margin-bottom: 40px;
 }
@@ -54,15 +54,14 @@
 
 .bicicleta-conteudo h2 {
   text-transform: uppercase;
-  letter-spacing: 0.15em;
+  letter-spacing: 0.015em;
   margin-bottom: 12px;
 }
 
 .bicicleta-informacoes,
 .bicicleta-ficha {
-  background-color: var(--cor-12);
   padding: 32px;
-  align-items: center;
+  background-color: var(--cor-12);
   border-radius: 4px;
 }
 
@@ -101,6 +100,7 @@
   .bicicleta {
     grid-template-columns: 1fr;
     padding-top: 40px;
+    padding-bottom: 40px;
   }
   .bicicleta-imagens {
     grid-row: 2;

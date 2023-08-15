@@ -82,7 +82,7 @@
     background: var(--cor-12);
   }
   .contato-formulario {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 0 5px 5px;
   }
   .contato-dados h2,
   .contato-meios a:nth-child(3) {
